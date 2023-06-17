@@ -16,7 +16,8 @@ public class Main {
         int cost = scanner.nextInt();
         int costForOneMile = 20;
 
-        int miles = cost / costForOneMile;
+        int miles;
+        miles = cost / costForOneMile;
 
         System.out.println("Количество миль: " + miles + " миль");
 
